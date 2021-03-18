@@ -30,7 +30,6 @@ public class MemberController {
 	public void memberJoin2(MemberDTO memberDTO) throws Exception {
 		
 
-		
 		int result = memberService.memberJoin(memberDTO);
 		
 		
