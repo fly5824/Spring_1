@@ -5,6 +5,10 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
+import org.springframework.stereotype.Repository;
+
+
+@Repository
 public class MemberDAO {
 	
 	public int memberJoin(MemberDTO memberDTO)throws Exception {
