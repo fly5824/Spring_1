@@ -61,7 +61,7 @@ public class MemberDAO {
 		if(rs.next()) {
 			memberDTO.setNAME(rs.getString("NAME"));
 			memberDTO.setEMAIL(rs.getString("EMAIL"));
-			memberDTO.setMOBILE(rs.getString("MOBILE"));
+			memberDTO.setMOBILE(rs.getString("PHONE"));
 					}else {
 		memberDTO=null;	
 		}

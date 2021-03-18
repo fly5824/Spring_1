@@ -13,8 +13,44 @@ public class MemberController {
 	@Autowired
 	private MemberService memberService;
 	
-	@RequestMapping(value="/member/memberLogin")
+	//memberJoin 메서드를 만들어서 memberjoin.jsp로 보내기
+	// /member/memberJoin get
+	//memberJoin2 회원가입코드 진행
+	// /member/memberJoin post
+	
+	@RequestMapping(value="/member/memberJoin")
 	public String memberJoin() {
+		
+		System.out.println("멤버조인");
+		
+		return "member/memberJoin";
+	}
+	
+	@RequestMapping(value="/member/memberJoin" ,method=RequestMethod.POST)
+	public void memberJoin2(String id, String pw, String name, String email, String phone) throws Exception {
+		
+		MemberDTO memberDTO = new MemberDTO();
+		
+		memberDTO.setID(id);
+		memberDTO.setPW(pw);
+		memberDTO.setNAME(name);
+		memberDTO.setEMAIL(email);
+		memberDTO.setMOBILE(phone);
+		
+		int result = memberService.memberJoin(memberDTO);
+		
+		
+		System.out.println(result);
+	
+		
+	}
+	
+	
+	@RequestMapping(value="/member/memberLogin")
+	public String memberLogin() {
+		
+//		System.out.println(name);
+//		System.out.println(age);
 		System.out.println("멤버 로그인");
 		
 		return "member/memberLogin";
