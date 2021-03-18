@@ -27,15 +27,9 @@ public class MemberController {
 	}
 	
 	@RequestMapping(value="/member/memberJoin" ,method=RequestMethod.POST)
-	public void memberJoin2(String id, String pw, String name, String email, String phone) throws Exception {
+	public void memberJoin2(MemberDTO memberDTO) throws Exception {
 		
-		MemberDTO memberDTO = new MemberDTO();
-		
-		memberDTO.setID(id);
-		memberDTO.setPW(pw);
-		memberDTO.setNAME(name);
-		memberDTO.setEMAIL(email);
-		memberDTO.setMOBILE(phone);
+
 		
 		int result = memberService.memberJoin(memberDTO);
 		
