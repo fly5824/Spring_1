@@ -15,7 +15,11 @@
 </head>
 <body>
 
-<h1> member page </h1>
-<h1><% memberDTO.getEMAIL(); %></h1>
+<h1> member page<h1>
+
+<h1><%= memberDTO.getNAME() %></h1>
+
+
+
 </body>
-</html>
+</html> 

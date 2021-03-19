@@ -6,9 +6,7 @@ private String ID;
 private String PW;
 private String EMAIL;
 private String NAME;
-private String MOBILE;
-
-
+private String MOBILE; 
 
 public String getID() {
 	return ID;
@@ -22,12 +20,6 @@ public String getPW() {
 public void setPW(String pW) {
 	PW = pW;
 }
-public String getMOBILE() {
-	return MOBILE;
-}
-public void setMOBILE(String mOBILE) {
-	MOBILE = mOBILE;
-}
 public String getEMAIL() {
 	return EMAIL;
 }
@@ -40,5 +32,13 @@ public String getNAME() {
 public void setNAME(String nAME) {
 	NAME = nAME;
 }
+public String getMOBILE() {
+	return MOBILE;
+}
+public void setMOBILE(String mOBILE) {
+	MOBILE = mOBILE;
+}
+
+
 
 }

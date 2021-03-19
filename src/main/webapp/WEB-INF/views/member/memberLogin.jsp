@@ -11,8 +11,8 @@
 <h1>Member Login Page</h1>
 
 <form action="./memberLogin" method="post">
-	id<input type="text" name="id">
-	pw<input type="password" name="pw">
+	id<input type="text" name="ID">
+	pw<input type="password" name="PW">
 	<button>Login</button>
 	</form>
 </body>
