@@ -50,8 +50,8 @@
 				<div class="form-group">
 					<label class="control-label col-sm-2" for="id">ID:</label>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" id="id"
-							placeholder="Enter ID" name="id">
+						<input type="text" class="form-control" id="ID"
+							placeholder="Enter ID" name="ID">
 					</div>
 				</div>
 
@@ -60,16 +60,16 @@
 				<div class="form-group">
 					<label class="control-label col-sm-2" for="pw">Password:</label>
 					<div class="col-sm-10">
-						<input type="password" class="form-control" id="pw"
-							placeholder="Enter password" name="pw">
+						<input type="password" class="form-control" id="PW"
+							placeholder="Enter password" name="PW">
 					</div>
 				</div>
 
 				<div class="form-group">
 					<label class="control-label col-sm-2" for="name">Name:</label>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" id="name"
-							placeholder="Enter Name" name="name">
+						<input type="text" class="form-control" id="NAME"
+							placeholder="Enter Name" name="NAME">
 					</div>
 				</div>
 
@@ -77,16 +77,16 @@
 				<div class="form-group">
 					<label class="control-label col-sm-2" for="email">Email:</label>
 					<div class="col-sm-10">
-						<input type="email" class="form-control" id="email"
-							placeholder="Enter email" name="email">
+						<input type="email" class="form-control" id="EMAIL"
+							placeholder="Enter email" name="EMAIL">
 					</div>
 				</div>
 				
 							<div class="form-group">
 					<label class="control-label col-sm-2" for="phone">Phone:</label>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" id="phone"
-							placeholder="Enter Phone" name="phone">
+						<input type="text" class="form-control" id="MOBILE"
+							placeholder="Enter Phone" name="MOBILE">
 					</div>
 				</div>
 

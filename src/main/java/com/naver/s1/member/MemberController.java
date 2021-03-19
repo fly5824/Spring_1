@@ -4,6 +4,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -47,6 +48,7 @@ public class MemberController {
 		System.out.println("멤버 로그인");
 		
 		return "member/memberLogin";
+		//
 	}
 	
 	@RequestMapping(value="/member/memberLogin", method=RequestMethod.POST)
@@ -61,5 +63,7 @@ public class MemberController {
 		memberDTO = memberService.memberlogin(memberDTO);
 		
 		System.out.println(memberDTO);
+		
+		
 	}
 }
